@@ -8,8 +8,9 @@ Feel free to customise the code how you like!
 #include <iostream>
 
 int main() {
-  loadingBar(int finishpercent, int secsleep) 
+  loadingBar(
+  int finishpercent, // the amount of progress it needs to be finished.
+  int secsleep // the amount of time between progress.
+  ) 
 }
 ```
-int finishpercent -- the amount of progress it needs to be finished.
-int secsleep -- the amount of time between progress.
