@@ -1,1 +1,1 @@
-void loadingBar(int finishpercent, int secsleep);
+void loadingBar(int sleeptime);
