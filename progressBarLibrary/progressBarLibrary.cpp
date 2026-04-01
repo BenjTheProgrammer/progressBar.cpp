@@ -1,17 +1,16 @@
 // C++ program to create loading bar
-#include "progressBar.hpp"
-#include "framework.h"
 #include <iostream>
 #include <chrono>
 #include <thread>
 using namespace std;
 
 // Function to creating loading bar
-void loadingBar(int finishpercent, int secsleep)
+void loadingBar(int finishpercent, string color, int secsleep)
 {
     // 0 - black background,
     // A - Green Foreground
-    system("color 0A");
+       
+
 
     // Initialize char for printing
     // loading bar
