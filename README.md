@@ -6,11 +6,9 @@ Feel free to customise the code how you like!
 # How to use:
 ```cpp
 #include <iostream>
+#icnlude "progressBar.hpp"
 
 int main() {
-  loadingBar(
-  int finishpercent, // the amount of progress it needs to be finished.
-  int secsleep // the amount of time between progress.
-  ) 
+  loadingBar(sleepTime) // sleepTime time between progress, 1000 = 1 Second.
 }
 ```
